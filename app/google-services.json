@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "114553089566",
+    "project_id": "testes-firebase-infnet",
+    "storage_bucket": "testes-firebase-infnet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114553089566:android:34e29d308e95d43af3880f",
+        "android_client_info": {
+          "package_name": "br.com.marcoscsouza.smpaattest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHu_02arXXi2U6l8fl-bGY_R18v417g0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114553089566:android:c34e035c3551caeff3880f",
+        "android_client_info": {
+          "package_name": "br.com.marcoscsouza.meuslivrosat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHu_02arXXi2U6l8fl-bGY_R18v417g0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114553089566:android:435cd995606a5cb9f3880f",
+        "android_client_info": {
+          "package_name": "br.com.marcoscsouza.meuslivrosat.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHu_02arXXi2U6l8fl-bGY_R18v417g0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114553089566:android:4a5d73bff2ed10dff3880f",
+        "android_client_info": {
+          "package_name": "br.com.marcoscsouza.testefirebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHu_02arXXi2U6l8fl-bGY_R18v417g0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114553089566:android:bc0b1f270516ae44f3880f",
+        "android_client_info": {
+          "package_name": "br.com.marcoscsouza.testetp3dr3smpa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHu_02arXXi2U6l8fl-bGY_R18v417g0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114553089566-hrja49vgv6glc5r3spbhtlo1h23svu9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

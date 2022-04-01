@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/drawable/ic_action_add.xml" value="0.1605" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/drawable/ic_action_editar.xml" value="0.1795" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/drawable/ic_baseline_exit.xml" value="0.1795" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/activity_create_occurrence.xml" value="0.2390625" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/activity_detail_occurrence.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/activity_list_occurrence.xml" value="0.2" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/activity_user_login.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/activity_user_register.xml" value="0.25" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/capure_img_occurrence.xml" value="0.2390625" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/layout/occurrence_item.xml" value="0.33" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/menu/menu_user.xml" value="0.2390625" />
+        <entry key="..\:/Users/marco/AndroidStudioProjects/SMPAATTest/app/src/main/res/mipmap-anydpi-v26/ic_smpa_at.xml" value="0.1605" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

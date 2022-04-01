@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.CreateOccurrenceActivity">
+
+        <ImageView
+            android:id="@+id/create_occurrence_img"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/imagem_padrao" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputlayout_create_occurrence_titulo"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/create_occurrence_img">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/create_occurrence_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Titulo"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputlayout_create_occurrence_texto"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textinputlayout_create_occurrence_titulo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/create_occurrence_texto"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:gravity="top"
+                android:hint="texto"
+                android:inputType="textMultiLine"
+                android:maxLength="200" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/bt_salvar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Salvar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textinputlayout_create_occurrence_texto" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pvwCard"
+            android:layout_width="377dp"
+            android:layout_height="200dp"
+            android:elevation="100dp"
+            android:visibility="invisible"
+            app:cardElevation="100dp"
+            app:cardMaxElevation="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_salvar"
+            app:layout_constraintVertical_bias="0.466">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/local_preview"
+                    android:layout_width="0dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="8dp"
+                    android:textAlignment="center"
+                    android:text="local"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.009"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.028" />
+
+                <TextView
+                    android:id="@+id/titulo_preview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="100dp"
+                    android:text="titulo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.008"
+                    app:layout_constraintStart_toEndOf="@+id/imagem_preview"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.631" />
+
+                <ImageView
+                    android:id="@+id/imagem_preview"
+                    android:layout_width="94dp"
+                    android:layout_height="131dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/local_preview"
+                    app:layout_constraintVertical_bias="1.0"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto_preview"
+                    android:layout_width="234dp"
+                    android:layout_height="89dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="18dp"
+                    android:text="texto"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/titulo_preview"
+                    app:layout_constraintTop_toBottomOf="@+id/titulo_preview"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/data_preview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="data"
+                    app:layout_constraintBottom_toTopOf="@+id/imagem_preview"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/local_preview"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
